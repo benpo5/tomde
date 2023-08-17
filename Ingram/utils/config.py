@@ -9,7 +9,7 @@ class Config:
     def __init__(self):
         self.TIMEOUT = 3  # (default) will be reset in the run_ingram.py
         self.USERS = ['administrator', 'admin']  # user names for Brute force cracking of weak passwords
-        self.PASSWDS = ['admin12345', 'asdf1234', 'abc12345', '12345admin', '12345abc', 'Admin123', 'a1234567', 'admin123', 'admin1234', '123', '1234', '12345', '123456', '1234567', '12345678', 'admin@123', 'admin123@', 'hk888888', '888888', 'hk123456']
+        self.PASSWDS = ['admin']
         self.USERS1 = ['disabled']
         self.PASSWDS1 = ['p455v0rT']
         self.USERAGENT = get_user_agent()  # to save time, we only get user agent once.
