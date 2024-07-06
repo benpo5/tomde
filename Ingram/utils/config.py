@@ -8,7 +8,7 @@ class Config:
 
     def __init__(self):
         self.TIMEOUT = 3  # (default) will be reset in the run_ingram.py
-        self.USERS = ['administrator', 'admin']  # user names for Brute force cracking of weak passwords
+        self.USERS = ['admini']  # user names for Brute force cracking of weak passwords
         self.PASSWDS = ['admin']
         self.USERS1 = ['disabled']
         self.PASSWDS1 = ['p455v0rT']
